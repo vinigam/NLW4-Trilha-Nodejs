@@ -31,7 +31,7 @@ POST localhost:8000/sendMail <br>
 # 04 - Open the link receveid in command line and send an rating <br>
 ![alt text](https://github.com/vinigam/NLW4-TrilhaNodejs/blob/main/images/email_received.png)
 
-#05 - Get the Net Promoter result 
+# 05 - Get the Net Promoter result 
 
 GET localhost:8000/nps/:survey_id <br>
 
