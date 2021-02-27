@@ -1,5 +1,5 @@
 # NLW4-TrilhaNodejs
-api that sends email to users and collect their ratings about the '' company ''
+api that sends email to users and calculate net promoter using their ratings about the '' company ''
 
 #Running
 Install all needed dependencies and run :<br>
@@ -7,5 +7,23 @@ Install all needed dependencies and run :<br>
 # 01 - npm run dev
 # 02 - create user and survey
 
+POST localhost:8000/users
+{
+  "name": "username",
+  "email" : "userEmail"
+}
 
-![alt text](https://github.com/vinigam/NLW4-TrilhaNodejs/blob/main/images/create_user.png) ![alt text](https://github.com/vinigam/NLW4-TrilhaNodejs/blob/main/images/create_survey.png)
+POST localhost:8000/surveys
+{
+  "title": "survey_title",
+  "description": "survey_description"
+}
+
+
+# 03 - Send email to user
+
+POST localhost:8000/sendMail
+{
+  "email": "userEmail,
+  "survey_id": "survey_id"
+}
