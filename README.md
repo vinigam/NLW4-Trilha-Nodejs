@@ -8,4 +8,4 @@ Install all needed dependencies and run :<br>
 # 02 - create user and survey
 
 
-![alt text](https://github.com/vinigam/NLW4-TrilhaNodejs/blob/main/images/create_user.png)
+![alt text](https://github.com/vinigam/NLW4-TrilhaNodejs/blob/main/images/create_user.png, https://github.com/vinigam/NLW4-TrilhaNodejs/blob/main/images/create_survey.png)
