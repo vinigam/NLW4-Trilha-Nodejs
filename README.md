@@ -20,9 +20,9 @@ POST localhost:8000/surveys <br>
 }
 
 
-# 03 - Send email to user <br>
+# 03 - Send email to user 
 
-POST localhost:8000/sendMail
+POST localhost:8000/sendMail <br>
 {
   "email": "userEmail,
   "survey_id": "survey_id"
@@ -30,3 +30,9 @@ POST localhost:8000/sendMail
 
 # 04 - Open the link receveid in command line and send an rating <br>
 ![alt text](https://github.com/vinigam/NLW4-TrilhaNodejs/blob/main/images/email_received.png)
+
+#05 - Get the Net Promoter result 
+
+GET localhost:8000/nps/:survey_id <br>
+
+![alt text](https://github.com/vinigam/NLW4-TrilhaNodejs/blob/main/images/get_nps_result.png)
